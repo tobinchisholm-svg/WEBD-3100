@@ -1,0 +1,10 @@
+flowchart TD
+    A[Start] --> B{Is VS Code Ready?}
+    B -->|Yes| C[Open Mermaid Preview]
+    B -->|No| D[Install Mermaid Extension]
+    D --> C
+    C --> E[Edit Diagram]
+    E --> F[Preview Updates]
+    F --> G[Done]
+
+    
