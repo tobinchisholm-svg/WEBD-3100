@@ -114,3 +114,38 @@ After changing lightness and chroma, the colour is converted back to sRGB. If it
 ### Method Comparison
 
 OKLCH kept the red more vivid in the darker steps and pushed the darkest steps much closer to black, while RGB Mix produced duller, browner dark reds. I chose RGB Mix as my provisional ramp because it matches my exported `tokens.css` and is easy to verify by hand, and step 500 is identical in both methods.
+
+
+Before this workshop, how did you normally choose colours for a website?
+i would just pick the ones that i thought looked the best
+
+What is the difference between choosing a colour and creating a colour system?
+it allows you to get a full picutre on how you want the colors to work togather so the site is able to have a clean look without being hard to see or have contrast issues with light and dark mode stuff..
+
+What did building a colour ramp teach you?
+it tought me how to better usse shades or tints of diffrent colors
+
+Why is it useful to separate foundation tokens from semantic tokens?
+so it affects dark mode or light mode without affect the opposite. 
+
+What happened when you switched your CSS between light and dark themes?
+it changed the colors of anything on the site and changed how it all blends togather
+
+What did contrast testing reveal about your colour choices?
+it showed me what colors needed to change so the site doesnt have contrast issues when it goes live.
+
+What colour did you select for your project, and what was your reasoning?
+i chose a overall red theme to have the same vibe of a dash of a car to stick with the overall theme of the website.
+
+Show one HEX-to-decimal conversion, RGB Mix calculations for steps 400 and 600, and one OKLCH 
+target-lightness calculation.
+
+Explain how the two generator modes differ. Why can the OKLCH target and final HEX differ after 
+gamut mapping?
+they can change the brightness and how they look on the screen. 
+
+What did you change after checking your project’s light and dark themes?
+no crazy changes where made after checking both display modes
+
+How will you preserve and improve this work for a later formal project milestone?
+ill have this too look back on to understand how i want the color i need to have for each section for both light and dark mode. 
