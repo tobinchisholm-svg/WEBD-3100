@@ -1,0 +1,114 @@
+
+What colour dominates the interface?
+white with gold highlighting and blue inbetween sections. 
+
+Which colour attracts attention first?	
+white
+How are important actions identified?	
+our story, producs, recipes, the team, mira bay, contact. 
+Are colours used consistently?
+white and gold highleting, blue and greay breaking up sections. 
+
+What is one colour-related improvement you would suggest?
+i would change the highlieting gold on the wbestie be more accrute to the gold in the companys logo
+
+https://louisbourgseafoods.ca/
+
+7. Activity 2 — Experiment in Figma
+
+Which adjustment had the strongest effect on your attention, and how might you use that effect in an interface?
+the hue changed the most and looks out of place compare to the others on the ramp. but if i was to put this on a website i would go with the saturation, lighter, darker and base color to have a solid theme on the website. 
+
+![alt text](image.png)
+
+10. Activity 3 — Build your ramp in Figma
+
+Reflection: Why would a professional design system benefit from several shades of one brand colour rather than using the same blue everywhere?
+
+![alt text](image-1.png)
+
+Step 5 — Run and test
+
+Reflection: What advantage does changing a colour in one central location provide over editing every button individually? it allows the dev be able to change couors over the entire website way quicker then going through a long css file changing each hex one by one. 
+
+Reflection: Why might a colour that works well for a light theme need to be replaced or adjusted in a dark theme? becasue if of the contrast diffrences that come up switching between the 2 diffrent themes. 
+
+Describe your project's purpose, intended users, and desired visual character (for example, calm, energetic, trustworthy, or playful).
+
+FuelFare is a trip cost calculator that shows drivers how much gas a trip from point A to point B will cost, based on their exact vehicle and local gas prices. It’s for students, commuters, and road trippers. The visual character should be sleek, bold, and modern, like a car dashboard, while staying clear and easy to read.
+
+Find inspiration in an existing interface, an image, or a palette you like. Record the source and what appeals to you; do not copy an entire brand identity without permission.
+
+Car dashboards at night: a black panel with red gauge needles and warning lights. It feels fast and high-tech, and it’s a general automotive style, not a copied brand.
+
+Select a starting HEX colour using Figma's colour picker or a trusted colour picker. Record the exact HEX value.
+
+#D72638 (a strong red)
+
+Convert the HEX value to RGB. Show at least one hexadecimal-to-decimal channel calculation.
+
+Red: D7 → (13 × 16) + 7 = 215
+Green: 26 → (2 × 16) + 6 = 38
+Blue: 38 → (3 × 16) + 8 = 56
+RGB: rgb(215, 38, 56)
+
+Use a colour converter to identify the approximate HSL hue, saturation, and lightness. Record the values and tool used.
+Hue ≈ 354°, Saturation ≈ 70%, Lightness ≈ 50%
+
+
+Write two sentences explaining why this colour might suit your users and application.
+
+Red on black gives FuelFare a sleek, dashboard-style look that fits an app about cars and driving. Red also draws attention, so it works well for the most important things, like the total trip cost and the Calculate button.
+
+One design tip for later: this red has enough contrast for text on a white background, but on pure black it’s a bit too dark for small text. In dark mode, use it for buttons and accents, and use a lighter red (like #FF4D5E) if you need red text. Your colour ramp from the tool will give you those lighter shades.
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+OKLCH kept the red more vivid in the darker steps and made the darkest steps much closer to black, while RGB Mix produced duller, browner dark reds and slightly pinker light tints. I chose RGB Mix as my provisional ramp because it matches my exported tokens.css, its steps are easy to verify by hand, and my main button colour (step 500) is the same in both methods. I may switch the 700–950 steps to OKLCH later if I want deeper, richer reds for the dark theme.
+
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+
+
+## OKLCH Ramp — FuelFare (#D72638)
+
+> **Note:** I couldn't get the generator's OKLCH mode to work, so these values were calculated using the workshop's OKLCH lightness and chroma formulas (Section 19B).
+
+**Base OKLCH:** L₀ = 0.570, C₀ = 0.209, H₀ = 22.7°
+
+| Step | RGB Mix HEX | OKLCH HEX | Final chosen HEX |
+|---|---|---|---|
+| 50 | #FDF4F5 | #FFF5F5 | #FDF4F5 |
+| 100 | #F9DEE1 | #FFE2E0 | #F9DEE1 |
+| 200 | #F3BEC3 | #FEC4C0 | #F3BEC3 |
+| 300 | #EB939C | #FD9995 | #EB939C |
+| 400 | #E15C6A | #F06363 | #E15C6A |
+| 500 | #D72638 | #D72638 | #D72638 |
+| 600 | #C22232 | #C00D2A | #C22232 |
+| 700 | #A11D2A | #96061E | #A11D2A |
+| 800 | #811722 | #6F0113 | #811722 |
+| 900 | #4B0D14 | #320004 | #4B0D14 |
+| 950 | #200608 | #090000 | #200608 |
+
+### Lightness Rule
+
+- **Step 400 (lighter):** L = 0.570 + (1 − 0.570) × 0.25 = **0.678**
+- **Step 600 (darker):** L = 0.570 × 0.90 = **0.513**
+
+### Why can the final HEX differ from the target?
+
+After changing lightness and chroma, the colour is converted back to sRGB. If it falls outside what a screen can display, chroma is reduced to fit, and each RGB channel is rounded to a whole number, so the final HEX can shift slightly from the theoretical target.
+
+### Method Comparison
+
+OKLCH kept the red more vivid in the darker steps and pushed the darkest steps much closer to black, while RGB Mix produced duller, browner dark reds. I chose RGB Mix as my provisional ramp because it matches my exported `tokens.css` and is easy to verify by hand, and step 500 is identical in both methods.
