@@ -1,0 +1,59 @@
+stjoeph.net
+
+heading font family:  Georgia, "Times New Roman", serif
+
+font size 80px
+font weight 700
+line height 88px
+
+body text font family: Georgia, "Times New Roman", serif
+
+font size 17.6px
+font weight 400
+line height 29.92px
+
+Font stack: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif for both headings and body.
+
+Why: I tried Inter next to the system fonts in Figma and liked Inter better. It’s clean and easy to read, even on small stuff like buttons and labels. It’s free on Google Fonts, and if it doesn’t load the system fonts kick in.
+Weights:
+
+400: body text
+500: navigation and labels
+600: buttons and card titles
+700: headings
+
+step 6
+i think my imrovement on trying to convince people to drop out and become drunks is a really intresting way for people to go out and exporle diffrent carrers before they fully settle on a job and with my updated suggestion it will open new people to alot of new learning experinces
+(this is all a joke i dont mean a word that i just said im tired and have a midterm tmr so this just had me laughing again this is a joke. this in no way is a good suggestion or is anything that nscc agrees with. please dont kick me out of school pleae and thank you) 
+
+A5 — Accessibility Audit
+
+Test	Result	Pass?
+Light body contrast (
+#0f172a on 
+#ffffff)	17.85:1	Pass
+Dark body contrast (
+#f1f5f9 on 
+#0b1220)	17.09:1	Pass
+Mobile / reflow (375px)	Nav wrapped, cards stacked, no sideways scroll	Pass
+200% zoom	Text readable, nothing cut off	Pass
+
+
+B1 — FuelFare Typography Strategy
+
+Purpose and audience: FuelFare tells drivers what a trip from point A to point B will cost in gas, based on their car and local gas prices. It’s for everyday drivers checking costs before a trip, mostly on their phone. The content is mostly numbers like distance, fuel and dollars.
+
+Tone: Sleek and bold like a car dashboard at night, but still clear and easy to read.
+
+Fonts: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif for headings and body. Inter’s numbers are clear, which matters for prices and trip costs.
+
+Weights: 400 body, 600 buttons and labels, 700 headings.
+
+System vs web font: Inter is free from Google Fonts. I’m only loading 3 weights so it stays fast on a phone. If it doesn’t load, the system fonts take over.
+
+B4 
+
+Issue and response: After adding Inter, my headings were still showing Arial. The Studio tokens set --font-heading to Arial and that rule won. I changed --font-heading and --font-body to var(--font-sans) so the whole page uses Inter.
+
+https://www.figma.com/design/fdAypIZgA1dhU7rqwSGiqj/WEBD3100--WS2---Tobin-Chisholm?node-id=61-53&t=FT9JJpKKgMOGxLcS-1
+

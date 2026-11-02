@@ -19,3 +19,13 @@ body {
 
 h1 { font-size: clamp(1.6rem, 4vw, 2.5rem); line-height: 1.2; }
 img, svg { max-width: 100%; height: auto; }
+
+
+body { font: var(--weight-regular) var(--text-body)/var(--leading-body) var(--font-sans); }
+h1 { font-size: var(--text-h1); font-weight: var(--weight-bold); line-height: 1.15; }
+h2 { font-size: var(--text-h2); font-weight: var(--weight-bold); line-height: var(--leading-heading); }
+h3 { font-size: var(--text-h3); font-weight: var(--weight-semibold); line-height: 1.3; }
+p { max-width: var(--measure); }
+small, .meta { font-size: var(--text-small); }
+button, .button, label { font-weight: var(--weight-semibold); }
+.price { font-size: var(--text-price); font-weight: var(--weight-bold); line-height: 1.1; font-variant-numeric: tabular-nums; }

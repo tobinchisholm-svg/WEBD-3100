@@ -1,0 +1,41 @@
+:root {
+  /* Workshop 03A — colour system (teaching values) */
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-text: #0f172a;
+  --color-muted: #334155;
+  --color-border: #cbd5e1;
+  --color-primary: #004780;
+  --color-on-primary: #ffffff;
+
+  /* Workshop 03B — typography foundations */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-heading: var(--font-sans);
+  --font-body: var(--font-sans);
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --text-small: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+  --text-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-h2: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --text-h1: clamp(1.75rem, 1.3rem + 1.8vw, 2.5rem);
+  --text-display: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+  --leading-tight: 1.15;
+  --leading-heading: 1.25;
+  --leading-body: 1.6;
+  --measure: 65ch;
+  --space-section: clamp(2rem, 1rem + 4vw, 4rem);
+}
+[data-theme="dark"] {
+  --color-background: #0b1220;
+  --color-surface: #162235;
+  --color-text: #f1f5f9;
+  --color-muted: #cbd5e1;
+  --color-border: #52627a;
+  --color-primary: #99c7eb;
+  --color-on-primary: #0b1220;
+}
