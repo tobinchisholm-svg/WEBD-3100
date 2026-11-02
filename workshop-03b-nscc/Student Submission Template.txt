@@ -57,3 +57,33 @@ Issue and response: After adding Inter, my headings were still showing Arial. Th
 
 https://www.figma.com/design/fdAypIZgA1dhU7rqwSGiqj/WEBD3100--WS2---Tobin-Chisholm?node-id=61-53&t=FT9JJpKKgMOGxLcS-1
 
+reflection
+
+1.How does typography establish hierarchy without relying only on colour?
+Its mostly the size and the weight. Headings are big and bold, body text is smaller, so you know whats important without needing colour. Spacing groups things too.
+
+
+2.Why did you select your project's heading and body fonts? What are their fallback fonts?
+
+Inter. It’s clean and the numbers are easy to read and FuelFare is basically all numbers. If it doesnt load it goes to system-ui, Segoe UI, Arial, then just sans-serif.
+
+
+3. What is the difference between rem, ch and clamp() in your design?
+
+rem is based on whatever font size the user has their browser set to. ch I used for line length so paragraphs dont go too wide. clamp() makes the headings bigger on a bigger screen but stops them at a max and a min.
+
+
+
+4. Which responsive or accessibility test caused you to change your typography system?
+
+I added Inter and my headings were still Arial. Turned out the Studio tokens had the heading font set to Arial and it was beating mine. Pointed it at --font-sans and that fixed it.
+
+
+5.How do Typography System V1 and Colour System V1 work together?
+
+Colour tells you what stuff means, red = something you click. Type tells you whats most important. They’re in the same tokens.css so I change one thing and it changes everywhere.
+
+
+What will you refine before the next formal project milestone?
+
+Fix the Figma sample text so its FuelFare stuff and not gas stations, try some long trip names, check zoom on my phone.
