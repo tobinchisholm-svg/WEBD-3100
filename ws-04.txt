@@ -1,0 +1,16 @@
+How does a sitemap differ from a navigation menu?
+a sitemap is planning diagram showing every page on the site and how theyre organzied. A navaigation menu is the on page tool vistoers click to move from page to page
+
+Why is it useful to organize content before choosing colours and fonts?
+the sturcutre and conctent dermine what the diesgin has to support. if you pick visuals first, you may end uo forching content into a layout that doesnt fit it and then having to redesing the site. it has the abilty to mess up the css. becasue if you do the css first and then the desgin it might not fit the same way that you where orginaly thinking making you have to redo past work.
+
+Why is a mobile wireframe more than a smaller desktop wireframe?
+becasue things will fit diffrently compared to desktop and the can lead to bugs on mobile like things not showing up on the webpage lit they are suppose to. 
+
+What could prevent a visitor from completing an event registration? 
+The registration button or link is hard to find
+The form is too long or confusing
+The site doesn’t work well on mobile
+Key details (date, cost, location) are missing
+Pages load slowly or links are broken
+Accessibility problems, such as poor contrast or no keyboard support
