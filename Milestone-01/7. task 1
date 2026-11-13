@@ -1,0 +1,24 @@
+Site: Fuel Consumption Ratings Search Tool (Natural Resources Canada)
+URL: https://fcr-ccc.nrcan-rncan.gc.ca/en/Search
+Purpose: Compare official fuel economy and yearly fuel cost to find a fuel-efficient vehicle.
+Audience: Canadian drivers buying a vehicle or checking their current one.
+
+PROBLEMS
+--------
+1. Too many filters on one screen; unclear where to start.
+   Heuristic: Aesthetic and minimalist design
+ 
+2. the site looks super bland and the entire site is white and so the site looks super bland
+ 
+3. The Model dropdown is empty until a Make is chosen, with no message
+   explaining why.
+   Heuristic: Visibility of system status
+
+
+OBSERVATIONS VS. ASSUMPTIONS
+----------------------------
+Observations: 9 filter groups on one form, a tip saying to hold Ctrl or
+              Command to select more than one option, and an empty Model
+              dropdown before a Make is picked.
+Assumptions:  new users may not know where to start, and may think the
+              Model list is broken.

@@ -1,0 +1,33 @@
+D3 - VISUAL DIRECTION
+=====================
+
+1. GUIDING DESIGN PRINCIPLES
+---------------------------
+Clarity:        Show only what's needed to calculate a trip.
+Consistency:    Same units, buttons and cards everywhere.
+Accessibility:  WCAG AA contrast and tap-friendly controls.
+
+
+2. VISUAL REFERENCES
+--------------------
+1. Uber Price Estimate (Uber)
+   One clear price after entering pickup and drop-off.
+
+2. Apple Maps Directions (Apple)
+   Clean layout with the most important info shown first.
+
+3. Google Maps Directions (Google)
+   Simple stacked From / To fields.
+
+
+3. HOW IT ADDRESSES THE TASK 1 PROBLEMS
+---------------------------------------
+Too many filters:     Home shows only From, To and Vehicle.
+Ctrl-click select:    Every choice works with a tap or click.
+Empty Model list:     Vehicle picker goes step by step with prompts.
+
+
+4. EXISTING IDENTITY - KEEP VS. CHANGE
+--------------------------------------
+Keep:    NRCan fuel economy data, metric units (L/100 km).
+Change:  Government branding becomes FuelFare's brand (red #D72638, Inter), and dense tables become one clear results card.

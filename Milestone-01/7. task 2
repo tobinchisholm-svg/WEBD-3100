@@ -1,0 +1,73 @@
+D2 - DESIGN BRIEF
+=================
+
+PROJECT OVERVIEW
+----------------
+Working title: FuelFare
+
+FuelFare is a trip cost calculator. Users pick their vehicle,
+enter a start and destination, and see what the trip will cost in gas
+using their car's official fuel economy and the local gas price. It
+redesigns the vehicle lookup in NRCan's Fuel Consumption Ratings Search
+Tool into a simple, guided tool focused on one question: "What will this
+trip cost me?"
+
+
+PROBLEM STATEMENT
+-----------------
+The NRCan tool has the right data but is hard to use. Too many filters appear at once, selecting more than one option needs a keyboard shortcut, and the Model list stays empty without explaining why. Drivers who just
+want to know their car's fuel cost have to work through a dense government form, and it does not work well on a phone.
+
+
+TARGET USERS
+------------
+1. Daily commuters (students and workers)
+   Needs:  know weekly or monthly gas costs, split costs with carpools.
+   Tasks:  save their vehicle, calculate a regular trip, save that trip.
+
+2. Occasional road-trippers
+   Needs:  budget gas for a longer trip before leaving.
+   Tasks:  enter a start and destination, pick a vehicle, see total cost.
+
+
+REDESIGN OBJECTIVES
+-------------------
+1. Users can start a calculation with 3 fields or fewer
+   (fixes Problem 1: too many filters).
+2. Every control works by tap or click, with no keyboard shortcuts needed
+   (fixes Problem 2: Ctrl/Command multi-select).
+3. The vehicle picker guides users step by step, Make -> Model -> Year,
+   with clear prompts at each step (fixes Problem 3: empty Model list).
+
+
+SCOPE
+-----
+In scope:
+- Home page with the trip calculator
+- Trip Results page
+- My Garage (save and choose a vehicle)
+- Saved Trips
+- Responsive layouts for mobile, tablet and desktop
+
+Out of scope / deferred:
+- Live gas prices from an outside service (users enter the price for now)
+- User accounts and sign-in
+- Reading real fuel, rpms and speed from the car with a  (OBD-II) and an esp32 with a screen
+
+
+CONSTRAINTS AND ASSUMPTIONS
+---------------------------
+Brand:Use the WS03A colour system (red #D72638 with neutrals) and the WS03B typography system (Inter).
+Content:Fuel economy comes from NRCan's open fuel consumption ratings data.
+Technical:Final site is hosted on GitHub Pages, which is static, so there is no backend or database.
+Accessibility:  Meet WCAG AA contrast (4.5:1 body text, 3:1 large text) and 44px minimum touch targets.
+Time:One semester, built across M1 to the final redesign.
+Assumption:Users know their vehicle's make, model and year, but notits fuel economy. (Not yet tested.)
+
+
+SUCCESS CRITERIA
+----------------
+1. A first-time user can calculate a trip cost in under 1 minute without help.
+2. A tester can find and choose their vehicle on a phone without getting stuck.
+3. All text and buttons pass WCAG AA contrast checks.
+4. Testers can correctly state the trip's total cost after viewing the results page.

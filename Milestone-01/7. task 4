@@ -1,0 +1,74 @@
+D4 - COLOUR SYSTEM V1
+=====================
+
+1. PALETTE EXPLORATION
+----------------------
+Built in Design System Studio V4.1 (WS03A) from base red #D72638.
+The OKLCH ramps gave even steps from light (50) to dark (950):
+
+Red:      #FDF4F5  #F9DEE1  #F3BEC3  #EB939C  #E15C6A  #D72638
+          #C22232  #A11D2A  #811722  #4B0D14  #200608
+Neutral:  #F3F3F3  #DCDCDC  #B9B9B9  #8A8A8A  #4F4F4F  #141414
+          #121212  #0F0F0F  #0C0C0C  #070707  #030303
+Accent:   #FFF6F7  #FFE4E7  #FFCACF  #FFA6AF  #FF7A86  #FF4D5E
+          #E64555  #BF3A47  #992E38  #591B21  #260C0E
+
+
+2-3. COLOUR ROLES
+-----------------
+Role             Token          HEX       Purpose
+Primary          red-500        #D72638   Main buttons, logo, key actions
+Primary Hover    red-700        #A11D2A   Primary button on hover
+Accent           accent-500     #FF4D5E   Highlights and links on dark
+                                          backgrounds
+Background       neutral-50     #F3F3F3   Page background
+Surface          white          #FFFFFF   Cards, forms, header, footer
+Text             neutral-500    #141414   Headings and body text
+Text Secondary   neutral-400    #4F4F4F   Labels, supporting text, form
+                                          borders
+Border           neutral-100    #DCDCDC   Card and divider lines
+
+
+4. FIGMA STYLE NAMES
+--------------------
+color/primary, color/primary-hover, color/accent, color/background,
+color/surface, color/text, color/text-secondary, color/border
+
+
+5. LIGHT THEME EXAMPLE
+----------------------
+Light theme: #F3F3F3 background, white cards, #141414 text, red
+#D72638 buttons.
+
+
+6. CONTRAST CHECKS (WCAG AA)
+----------------------------
+Body text       #141414 on #F3F3F3    16.60:1   Pass
+Secondary text  #4F4F4F on #FFFFFF     8.19:1   Pass
+Primary button  #FFFFFF on #D72638     4.97:1   Pass
+Hover button    #FFFFFF on #A11D2A     7.71:1   Pass
+Accent on dark  #FF4D5E on #141414     5.68:1   Pass
+
+Corrections:
+- #DCDCDC on white is only 1.37:1, which fails the 3:1 needed for form
+  fields. Input borders use #4F4F4F (8.19:1) instead. #DCDCDC is kept
+  only for decorative card borders.
+- White text on #FF4D5E is only 3.24:1, so the accent is not used for
+  button text. It is only used on dark backgrounds.
+
+
+7. PRIMARY BUTTON STATES
+------------------------
+Default:        #D72638 background, white text
+Hover:          #A11D2A background, white text
+                (red-600 #C22232 was too close to the default, so the
+                hover moved two steps darker to red-700)
+Focus-visible:  #D72638 background + 3px #141414 outline with a 2px gap
+                (the outline shows focus, not just a colour change)
+
+
+TOKEN MAPPING
+-------------
+Foundation:  red-500 = #D72638
+Semantic:    color/primary = red-500
+Component:   Primary button background = color/primary
