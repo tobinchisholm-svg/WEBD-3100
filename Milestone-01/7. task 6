@@ -1,0 +1,27 @@
+D6 - SPACING AND INITIAL INTERFACE STYLES
+=========================================
+
+1. SPACING SCALE
+----------------
+Token      Value   Use
+space-1    4px     Tiny gaps (icon to text)
+space-2    8px     Label to input
+space-3    12px    Between items in a card
+space-4    16px    Card padding, mobile page margin
+space-6    24px    Between cards
+space-8    32px    Between sections
+
+
+2. BORDER-RADIUS AND BORDERS
+----------------------------
+radius-sm   8px    Buttons, inputs
+radius-md   12px   Cards
+Card border:   1px #DCDCDC (color/border)
+Input border:  1px #4F4F4F (color/text-secondary)
+Secondary button border: 1.5px #141414 (color/text)
+
+
+5. ANNOTATION
+-------------
+Every card uses 16px padding (space-4) and 12px between its items
+(space-3), so all cards line up and feel the same across the site.

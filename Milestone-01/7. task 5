@@ -1,0 +1,45 @@
+D5 - TYPOGRAPHY SYSTEM V1
+=========================
+
+1. TYPEFACE AND FALLBACKS
+-------------------------
+Typeface:   Inter
+Fallbacks:  system-ui, "Segoe UI", Roboto, Arial, sans-serif
+Why:        Clear, easy-to-read numbers for prices and trip costs.
+Licence:    SIL Open Font License, free through Google Fonts.
+
+
+2. DESIGN SYSTEM STUDIO EXPLORATION
+-----------------------------------
+Base size:  16px
+Scale:      Smaller on mobile, larger on desktop.
+clamp():    Used for headings so they resize between mobile and desktop.
+
+
+4. TEXT STYLES
+--------------
+Style    Family  Weight  Size (mobile/desktop)  Line height  Use
+Price    Inter   700     40 / 48px              110%         Trip cost
+H1       Inter   700     28 / 40px              115%         Page titles
+H2       Inter   700     22 / 28px              125%         Section headings
+H3       Inter   600     18 / 20px              130%         Card titles
+Body     Inter   400     16px                   160%         Paragraphs
+Small    Inter   400     14px                   150%         Supporting details
+Label    Inter   600     14px                   140%         Form labels
+Button   Inter   600     16px                   125%         Button text
+
+
+6. MOBILE TO DESKTOP
+--------------------
+Example 1 - H1:     28px on mobile, 40px on desktop.
+Example 2 - Price:  40px on mobile, 48px on desktop.
+
+
+7. CLAMP() EXPLAINED
+--------------------
+font-size: clamp(1.75rem, 1.44rem + 1.33vw, 2.5rem);
+
+Minimum:   1.75rem (28px), never smaller.
+Fluid:     1.44rem + 1.33vw, grows as the screen gets wider.
+Maximum:   2.5rem (40px), never bigger.
+Use case:  The h1 page title.

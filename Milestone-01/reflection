@@ -1,0 +1,60 @@
+REFLECTION
+==========
+
+1. Which observed problem most strongly shaped your design brief, and why?
+--------------------------------------------------------------------------
+The number of filters on the NRCan search form. Nine filter groups show up
+at once before you see any results, so it's hard to know where to start.
+That's why my first objective is starting a trip with 3 fields or fewer,
+and why FuelFare's Home page only asks for From, To and Vehicle.
+
+
+2. How do your proposed visual design principles support your target users?
+---------------------------------------------------------------------------
+Commuters and road-trippers mostly want one answer: what the trip will
+cost. Clarity puts the trip cost as the biggest text on the results page.
+Consistency means the same buttons and cards everywhere, so returning
+users don't have to relearn anything. Accessibility keeps text readable
+and buttons at least 44px, which matters because most people will use it
+on a phone.
+
+
+3. Which colour or contrast decision required revision after testing?
+--------------------------------------------------------------------
+The primary button hover. I first used red-600 (#C22232), but when I saw
+it next to the default button it looked almost the same. I changed it to
+red-700 (#A11D2A), which is easy to tell apart and still passes contrast
+at 7.71:1. I also changed input borders from #DCDCDC to #4F4F4F because
+the light grey was only 1.37:1 and failed for form fields.
+
+
+4. How did the Design System Studio V4.1 influence your typography or
+   colour decisions? Identify something you verified independently in
+   Figma or the browser.
+---------------------------------------------------------------------
+Studio gave me the OKLCH red and neutral ramps from my base red #D72638,
+which made it easy to pick hover and background colours that fit
+together. It also gave me the type scale and clamp() for headings. I
+checked the contrast ratios myself, and the hover problem only showed up
+when I looked at the buttons side by side in Figma.
+
+
+5. Which part of your Figma Style Guide V1 is most reusable, and what
+   still needs improvement?
+---------------------------------------------------------------------
+The named colour and text styles are the most reusable, because every
+future screen can use color/primary or type/body without picking values
+again. What still needs work: a dark theme, more components like inputs
+and error messages, and turning the spacing scale into Figma variables.
+
+
+6. How will your design brief and style guide guide Milestone 2?
+----------------------------------------------------------------
+The brief's scope gives me the pages for the sitemap: Home, Calculate
+Trip, Trip Results, My Garage and Saved Trips. The objectives decide the
+layout, like keeping the calculator at the top of Home on mobile. The
+style guide's spacing, type and colour styles will keep the wireframes
+consistent across mobile, tablet and desktop.
+
+https://www.figma.com/design/fdAypIZgA1dhU7rqwSGiqj/WEBD3100--WS2---Tobin-Chisholm?node-id=113-508&p=f&t=btoQNNRAVXDfu0Ur-0
+
