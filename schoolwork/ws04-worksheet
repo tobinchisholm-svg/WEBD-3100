@@ -1,0 +1,8 @@
+How does a sitemap differ from a navigation menu?
+a navigation menu is what the user see to go between diffrent menus on the website. and the sitemap is a link to all the diffrent sections on a website
+Why is it useful to organize content before choosing colours and fonts?
+becasue diffrent content/pages are going to have diffrent feels to them so its good to have the base idea down for what the page is going to have before you land on a colour or font for the entire site. it allows the developer to make changes easier without screwing up the css tokens
+Why is a mobile wireframe more than a smaller desktop wireframe?
+becasue mobile formats the website diffrent it can lead to content not showing up on the page and having glitches in how the website is show. so you have to account for mobile as well as desktop, its hard to build one then try and make it work on the other after. 
+What could prevent a visitor from completing an event registration?
+if the user is trying to signup for the event on mobile and the website isnt build properly for mobile the user can easily get frustrateted with the layout or content not showing up properly and decide its not worth the hassle to sign up for the event. 
