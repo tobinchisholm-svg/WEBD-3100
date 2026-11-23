@@ -1,0 +1,53 @@
+WALKTHROUGHS, FINDINGS AND REVISIONS
+=========================================
+
+1. TASK PROMPTS
+---------------
+Task 1: "You're driving to Halifax this weekend. Find out how much the
+         gas will cost."
+Task 2: "You drive to work every day. Set up your own car in FuelFare and
+         check what your commute costs."
+
+
+2. METHOD
+---------
+Scenario-based walkthrough (no participant). Each task was
+traced through the sitemap and the mobile, tablet and desktop wireframes.
+
+
+3. OBSERVATIONS
+---------------
+Task 1 - Calculate a trip
+- Expected path: Home calculator > Trip Results. Path works.
+- Hesitation: the vehicle dropdown has no way to add a car if none is
+  saved. Add Vehicle can only be reached from My Garage.
+- Missed content: on mobile and tablet, Trip Results shows the gas price
+  but not when it was updated.
+- Confusion: "Current Vehicle" on Trip Results looks like a label, not a
+  button to change the car.
+
+Task 2 - Set up a car and check a commute
+- Expected path: Account > Sign In > My Garage > Add Vehicle > Saved
+  Trips > Trip Results.
+- Viewport obstacle: the Home frames have no Account link at any size.
+- Viewport obstacle: mobile Add Vehicle has no Engine / trim field, so
+  mobile users may get the wrong fuel economy.
+
+
+4. REVISIONS
+------------
+Finding                          Impact  Design change
+No way to add a car from the     High    Added "+ Add a vehicle" to the
+calculator                               vehicle dropdown; sitemap now links
+                                         Calculate Trip to Add Vehicle
+
+"Current Vehicle" unclear        Medium  Renamed to "Change vehicle"
+
+No trim field on mobile          Medium  Added Envvgine / trim to mobile
+Add Vehicle                              Added Vehicle
+
+
+5. BEFORE / AFTER EVIDENCE
+--------------------------
+Original frames kept in Figma section "M2 - Before Testing". Revised
+frames in section "M2 - After Testing".

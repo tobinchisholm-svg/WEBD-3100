@@ -1,0 +1,9 @@
+1. The M1 baseline (NRCan) only looks up fuel ratings, so the sitemap is built around what it lacks: Calculate Trip, My Garage and Saved Trips. The top tasks from the brief decided which pages exist, and the principles (Clarity, Consistency, Accessibility) shaped the layouts.
+
+2. Exported views of the sitemap, journeys, and Home, Trip Results and Add Vehicle at all three sizes are in the report. The editable originals stay in Figma.
+
+3. Navigation is a hamburger menu on mobile and full links on tablet and desktop. Trip Results adds a route map, round-trip checkbox and extra panels on desktop. Add Vehicle is one column on mobile and two on desktop. Model, Year and Trim stay locked until a make is chosen.
+
+4. I did a scenario-based heuristic walkthrough with no participant. It led to five revisions: "+ Add a vehicle" in the dropdown, Account on Home, "Change vehicle" label, and Engine/trim on mobile. Limitations: no real user testing and data sources not final. M3: choose data sources, build the pages in code, test with real users.
+
+5. Link: https://www.figma.com/design/fdAypIZgA1dhU7rqwSGiqj/WEBD3100--WS2---Tobin-Chisholm?node-id=236-974&t=i4DN3REsaaJu2xxO-1 

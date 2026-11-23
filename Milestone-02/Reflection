@@ -1,0 +1,11 @@
+1. Three needs shaped the IA: calculating a trip's cost quickly, reusing my vehicle without re-entering it, and rechecking a past trip. NRCan only looks up ratings, so these became Calculate Trip, My Garage and Saved Trips in the primary navigation.
+
+2. Changes: NRCan's search and rating pages were consolidated into Calculate Trip and Trip Results. "Current Vehicle" was renamed "Change vehicle" because it looked like a label, not a button. Gas Prices and Help & Contact moved to the footer as secondary content, and Account and Sign In / Sign Up were added. This fixed the unclear wording and kept the top navigation to the three main tasks.
+
+3. Journey 1 (Home > Calculate Trip > Trip Results) shows the main task takes three steps. Journey 2 (Home > Account > Sign In > My Garage > Add Vehicle > Saved Trips > Trip Results) shows every page is reachable. A user could still get lost because Add Vehicle was only reachable from My Garage, and a user who has not signed in may not see why My Garage is locked.
+
+4. First, navigation is a hamburger menu on mobile and full header links on tablet and desktop, because mobile has no room for four links and desktop does. Second, Trip Results is one column on mobile with the price first, while desktop adds a route map, round-trip checkbox and Saved Trips sidebar, because desktop has room to show related content without scrolling.
+
+5. The walkthrough showed there was no way to add a car from the calculator, which I did not expect. Revision: I added "+ Add a vehicle" to the vehicle dropdown and a Calculate Trip to Add Vehicle link on the sitemap.
+
+6. Still uncertain: how trip distance is found (routing API or user typed), where gas prices come from, whether accounts are worth the backend, and whether the hamburger hides navigation too much. In M3 I will build the pages, pick the data sources, and test with real users.
