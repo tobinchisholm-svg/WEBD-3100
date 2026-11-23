@@ -1,0 +1,53 @@
+- SITEMAP AND NAVIGATION MODEL
+=================================
+
+1. CATEGORIES
+-------------
+Plan a trip:     Calculate Trip, Trip Results
+My stuff:        My Garage, Add Vehicle, Saved Trips, Account
+Info and help:   Gas Prices, Help & Contact
+
+
+2. NAVIGATION HIERARCHY
+-----------------------
+Homepage:            Home
+Primary navigation:  Calculate Trip, My Garage, Saved Trips
+Second-level pages:  Trip Results (under Calculate Trip),
+                     Add Vehicle (under My Garage),
+                     Sign In / Sign Up (under Account)
+Header utility:      Account
+Footer utility:      Gas Prices, Help & Contact
+
+
+3. SITEMAP DIAGRAM
+------------------
+See the editable sitemap in Figma, section 05 - Information
+Architecture & Sitemap.
+
+
+4. PAGES SELECTED FOR WIREFRAMES
+--------------------------------
+Home           - Home / landing page
+Trip Results   - Primary content page
+Add Vehicle    - Task-oriented page
+
+
+5. CHANGES FROM THE EXISTING SITE (NRCan)
+-----------------------------------------
+Consolidated:
+- Vehicle filters and Advanced search become one step-by-step Add
+  Vehicle page.
+- Three separate results tables become one Trip Results page.
+- Personalize is split: fuel price moves to Gas Prices, distance moves
+  to Calculate Trip.
+
+Renamed:
+- "Search and compare" becomes "Calculate Trip".
+- "Saved vehicles" becomes "My Garage".
+- "Search tips" and "Understanding the tables" become "Help & Contact".
+
+Navigation changes:
+- NRCan is one long page with no menu. FuelFare has a main menu, an
+  Account link in the header, and footer links.
+- Account and Sign In / Sign Up are added. NRCan has no accounts.
+- Units selector, results-per-page and vehicle compare are removed.

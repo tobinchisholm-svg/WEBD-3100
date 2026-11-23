@@ -1,0 +1,28 @@
+- USER JOURNEYS
+==================
+
+JOURNEY 1 - CALCULATE A TRIP'S GAS COST
+---------------------------------------
+User:              Road-tripper
+Goal:              Find out what a trip will cost in gas before leaving
+Entry point:       Home
+Decision points:   Pick a saved vehicle or choose a new one;
+                   one way or round trip; save the trip or not
+Page sequence:     Home > Calculate Trip > Trip Results
+Success:           The total gas cost for the trip is shown
+Potential friction: No vehicle saved yet; unsure if the gas price is
+                   current
+
+
+JOURNEY 2 - SET UP MY CAR AND CHECK MY COMMUTE
+----------------------------------------------
+User:              Daily commuter
+Goal:              Save their car and see what their daily commute costs
+Entry point:       Home
+Decision points:   Sign in or create an account; pick make, model and
+                   year; choose which saved trip to open
+Page sequence:     Home > Account > Sign In / Sign Up > My Garage >
+                   Add Vehicle > Saved Trips > Trip Results
+Success:           The commute cost is shown using their own car
+Potential friction: Doesn't know the exact model or year; signing up
+                   feels like an extra step before seeing a cost

@@ -1,0 +1,59 @@
+- CONTENT INVENTORY AND PRIORITIES
+=====================================
+
+https://fcr-ccc.nrcan-rncan.gc.ca/en/Search 
+
+1. CONTENT AREAS
+----------------
+Existing (NRCan Fuel Consumption Ratings Search Tool):
+- Search tips
+- Vehicle filters (type, model year, class, make, model)
+- Units selector (L/100 km, mpg imperial, mpg US)
+- Advanced search (transmission, fuel, cylinders)
+- Personalize (km per year, % city driving, fuel prices)
+- Results tables (conventional/hybrid, plug-in hybrid, electric)
+- Compare and saved vehicles
+- Understanding the tables / Fuel Consumption Guide links
+
+Proposed (FuelFare):
+- Home, Calculate Trip, Trip Results, My Garage, Add Vehicle,
+  Saved Trips, Gas Prices, Help & Contact
+
+
+2. INVENTORY
+------------
+Content / page        Audience         Purpose                       Priority  Action   Reason
+Home                  All users        Start a trip quickly          High      Add      NRCan opens straight into a dense form
+Calculate Trip        All users        Enter From, To and vehicle    High      Add      Replaces the filter-first search
+Trip Results          All users        See the total trip cost       High      Revise   Three dense tables become one result card
+Vehicle filters       All users        Find the right vehicle        High      Revise   Becomes a step-by-step Make > Model > Year picker
+Add Vehicle           Commuters        Save a car's fuel economy     High      Combine  Merges vehicle filters and advanced search
+My Garage             Commuters        Keep saved vehicles           Medium    Revise   Replaces NRCan's saved vehicles list
+Personalize           All users        Set fuel price and driving    Medium    Combine  Fuel price moves to Gas Prices, the rest to Calculate Trip
+Saved Trips           Commuters        Re-check a regular trip       Medium    Add      NRCan has no way to save a trip
+Gas Prices            All users        Check or set price per litre  Medium    Add      Cost depends on an up-to-date price
+Help & Contact        New users        Get help or ask a question    Low       Revise   Replaces search tips and table help
+Units selector        All users        Choose units                  Low       Remove   FuelFare uses L/100 km only
+Results per page      All users        Control table length          Low       Remove   Only one result is shown
+Compare (5 models)    Car shoppers     Compare vehicles              Low       Remove   Out of scope; FuelFare is about trips
+Account / sign-in     Returning users  Save data across devices      Low       Remove   Deferred; out of scope in M1 brief
+
+
+3. DESTINATIONS AND TOP TASKS
+-----------------------------
+Destinations (8): Home, Calculate Trip, Trip Results, My Garage,
+Add Vehicle, Saved Trips, Gas Prices, Help & Contact
+
+Top 3 tasks:
+1. Calculate a trip's gas cost
+2. Add my vehicle
+3. Check a saved trip
+
+
+4. GAPS, DUPLICATES AND CONFUSING TERMS
+---------------------------------------
+Gaps:        No way to calculate a single trip's cost or save a trip.
+Duplicates:  Three separate results tables repeat the same columns.
+Confusing:   "Le/100 km" next to "L/100 km", mpg where higher is better
+             vs L/100 km where lower is better, and "Personalize" does not
+             say it is for cost estimates.

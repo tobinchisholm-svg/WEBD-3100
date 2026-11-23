@@ -48,11 +48,13 @@ In scope:
 - My Garage (save and choose a vehicle)
 - Saved Trips
 - Responsive layouts for mobile, tablet and desktop
+- User accounts and sign-in
 
 Out of scope / deferred:
-- Live gas prices from an outside service (users enter the price for now)
-- User accounts and sign-in
+- Live gas prices from an outside service (i might have to build my own API to do this becasue the ones that exist that does this all cost mone)
 - Reading real fuel, rpms and speed from the car with a  (OBD-II) and an esp32 with a screen
+- send information from the OBD-II to fuelfare to the persons account. 
+- Maps and turn-by-turn directions: FuelFare only needs the distance, not navigation.
 
 
 CONSTRAINTS AND ASSUMPTIONS
